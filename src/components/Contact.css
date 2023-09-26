@@ -1,0 +1,109 @@
+.Contact {
+    background-color:#000000 ;
+}
+.Contact h2 {
+    color:#fff ;
+    margin-left: 35px;
+}
+.contactInfo {
+    gap: 10px;
+}
+
+.discountInfo {
+    width: 100%;
+}
+.discountBlock {
+    display: flex;
+    justify-content: space-around;
+    flex-direction: row;
+    background-color: #000000;
+    color: #fff;
+    padding: 30px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+}
+
+.discountForm {
+    padding-left: 20px;
+}
+
+.Text {
+    margin-bottom: 10px;
+    font-size: 24px;
+}
+
+.discountForm form {
+    margin-top: 20px;
+}
+
+.discountForm input {
+    width: 85%;
+    padding: 20px;
+    margin-bottom: 10px;
+    border: none;
+    border-radius: 4px;
+}
+
+.discountForm button {
+    background-color: #3575bf;
+    color: #fff;
+    padding: 15px 16px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    width: 93%;
+}
+.discountForm {
+    display: flex;
+    justify-content: flex-end;
+    opacity: 0;
+    transform: translateX(20px);
+    transition: opacity 0.5s ease, transform 1.5s ease;
+}
+
+.discountForm.active {
+    animation: slideIn 1s ease-in-out forwards;
+}
+
+@keyframes slideIn {
+    from {
+        transform: translateX(100%);
+        opacity: 0;
+    }
+    to {
+        transform: translateX(0);
+        opacity: 1;
+    }
+}
+@media (max-width: 768px) {
+    .discountBlock {
+        display: flex;
+        justify-content: space-between;
+        flex-direction: row;
+        padding: 30px;
+
+    }
+
+    .discountInfo h2 {
+        width: 100%;
+        font-size: calc(15px + 2 * ((100vw - 320px) / 448));
+
+    }
+    .discountInfo p {
+        font-size: calc(10px + 2 * ((100vw - 320px) / 448));
+    }
+
+    .discountForm {
+        justify-content: flex-end;
+        opacity: 0;
+        transform: translateX(20px);
+        transition: opacity 0.5s ease, transform 1.5s ease;
+    }
+
+    .discountForm.active {
+        animation: slideIn 1s ease-in-out forwards;
+    }
+
+}
+
+
+

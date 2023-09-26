@@ -1,0 +1,90 @@
+.footer {
+    background-color: #000000;
+    margin-top: 50px;
+}
+
+.footer .footer-top-wrap {
+    padding: 62px 0;
+}
+
+.footer .footer-top {
+    display: grid;
+    grid-template-columns: 1.5fr 2.5fr 2fr 1fr;
+    grid-gap: 50px;
+}
+
+.footer .footer-logo .logo {
+    display: inline-block;
+}
+
+.footer .footer-email {
+    font-size: 20px;
+    line-height: 25px;
+    color: #fff;
+    margin-left: 40px;
+}
+
+.footer .footer-cities .city-item {
+    width: 33.33%;
+    font-size: 13px;
+    line-height: 1.6;
+    color: rgba(255, 255, 255, .8);
+    margin-bottom: 30px;
+}
+
+.footer .footer-menu a {
+    font-size: 16px;
+    line-height: 20px;
+    letter-spacing: .05em;
+    text-transform: uppercase;
+    color: #fff;
+    white-space: nowrap;
+}
+
+.footer .footer-cities {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.footer .footer-cities .city-item {
+    width: 33.33%;
+    font-size: 13px;
+    line-height: 1.6;
+    color: rgba(255, 255, 255, .8);
+    margin-bottom: 30px;
+}
+
+.footer .footer-cities .city-item .city-title {
+    font-weight: bold;
+}
+
+.footer .footer-menu {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.footer .footer-menu li {
+    width: 50%;
+    margin-bottom: 50px;
+}
+
+.footer .footer-menu a {
+    font-size: 14px;
+}
+
+.footer .footer-phone {
+    font-size: 20px;
+    font-weight: bold;
+    line-height: 25px;
+    text-align: right;
+    letter-spacing: .05em;
+    text-transform: uppercase;
+    color: #fff;
+}
+
+.footer .call-time {
+    font-size: 13px;
+    line-height: 16px;
+    color: rgba(255, 255, 255, .8);
+    margin: 14px 0 39px;
+}

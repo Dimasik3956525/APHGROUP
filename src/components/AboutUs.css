@@ -1,0 +1,33 @@
+.about-values {
+    margin: 10px 0;
+    overflow: hidden;
+}
+h2 {
+    margin-left: 15px;
+}
+.wrapper.inner-thin {
+    padding-left: 40px;
+    padding-right: 40px;
+}
+
+.content-grid-1x1 {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+   gap: 20px;
+    margin-left: 40px;
+    font-size: 20px;
+}
+
+.grid-cell {
+    position: relative;
+}
+
+
+.fullwidth-img__wrap {
+    margin: 55px 0;
+    height: max-content;
+    width: max-content;
+}
+
+
+
