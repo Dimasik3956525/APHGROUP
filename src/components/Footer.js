@@ -39,7 +39,7 @@ function Footer() {
                             </div>
                             <div className="footer-col footer-col-4">
                                 <div className="col-4-contacts">
-                                    <a href="tel:+78005004533" className="footer-phone tracking">8 (800) 500-45-33</a>
+                                    <a href="tel:+78005004533" className="footer-phone tracking">8 (800) 500-45-34</a>
                                     <div className="call-time">10:00 - 18:00 по Алмате</div>
                                 </div>
                             </div>
