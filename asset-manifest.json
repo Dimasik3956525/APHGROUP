@@ -1,0 +1,18 @@
+{
+  "files": {
+    "main.css": "/APHGROUP/static/css/main.8674c842.css",
+    "main.js": "/APHGROUP/static/js/main.88eff5e4.js",
+    "static/js/787.722737ac.chunk.js": "/APHGROUP/static/js/787.722737ac.chunk.js",
+    "static/media/photo-2.PNG": "/APHGROUP/static/media/photo-2.7b27a916856849e4cbfb.PNG",
+    "static/media/photo-1.PNG": "/APHGROUP/static/media/photo-1.946351011680a730416d.PNG",
+    "static/media/logo.PNG": "/APHGROUP/static/media/logo.dcdc03120e6b0a4e8a35.PNG",
+    "index.html": "/APHGROUP/index.html",
+    "main.8674c842.css.map": "/APHGROUP/static/css/main.8674c842.css.map",
+    "main.88eff5e4.js.map": "/APHGROUP/static/js/main.88eff5e4.js.map",
+    "787.722737ac.chunk.js.map": "/APHGROUP/static/js/787.722737ac.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.8674c842.css",
+    "static/js/main.88eff5e4.js"
+  ]
+}
